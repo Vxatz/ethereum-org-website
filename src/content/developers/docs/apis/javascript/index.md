@@ -226,7 +226,7 @@ balance = await provider.getBalance("ethers.eth")
 // { BigNumber: "2337132817842795605" }
 
 // Often you will need to format the output for the user
-// which prefer to see values in ether (instead of wei)
+// who prefers to see values in ether (instead of wei)
 ethers.utils.formatEther(balance)
 // '2.337132817842795605'
 ```
